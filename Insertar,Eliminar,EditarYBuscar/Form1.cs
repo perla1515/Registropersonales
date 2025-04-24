@@ -82,6 +82,9 @@ namespace Registropersonales
 
                 var empleado = db.Empleados.Find(id);
 
+                // Asignar el empleado a la variable empleadoTemporario antes de eliminarlo
+                empleadoTemporario = empleado;
+
                 db.Entry(empleado).State = System.Data.Entity.EntityState.Deleted;
                 db.SaveChanges();
 
