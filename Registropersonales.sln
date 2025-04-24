@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registropersonales", "Insertar,Eliminar,EditarYBuscar\Registropersonales.csproj", "{A2D366CE-7CA5-4F01-A26D-8ECD4C98AE2B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A738688B-31A8-4225-868D-1AC200DD8EE1} = {A738688B-31A8-4225-868D-1AC200DD8EE1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registropersonales.domain", "Registropersonales.domain\Registropersonales.domain.csproj", "{A738688B-31A8-4225-868D-1AC200DD8EE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2D366CE-7CA5-4F01-A26D-8ECD4C98AE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D366CE-7CA5-4F01-A26D-8ECD4C98AE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D366CE-7CA5-4F01-A26D-8ECD4C98AE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D366CE-7CA5-4F01-A26D-8ECD4C98AE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A738688B-31A8-4225-868D-1AC200DD8EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A738688B-31A8-4225-868D-1AC200DD8EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A738688B-31A8-4225-868D-1AC200DD8EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A738688B-31A8-4225-868D-1AC200DD8EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57A83521-DBBA-49B3-81A8-CBAE0AC5CEA0}
+	EndGlobalSection
+EndGlobal
